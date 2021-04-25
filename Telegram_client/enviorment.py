@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 from os import environ
 
-# load .env to current project environment variables
+# load .env.sample to current project environment variables
 load_dotenv()
 
 
