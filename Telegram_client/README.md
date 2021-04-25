@@ -12,6 +12,7 @@ $ cd Telegram_client/
 $ python -m venv env
 $ source env/bin/activate
 $ pip install -r requirements.txt
-$ vim .env.sample      #edit env file and Save
+$ mv .env.sample .env
+$ vim .env  #edit env file and Save
 $ python client.py
 ```
