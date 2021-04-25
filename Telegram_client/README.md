@@ -9,7 +9,7 @@ Setup project environment with [virtualenv](https://virtualenv.pypa.io) and [pip
 ```bash
 $ git clone https://github.com/Ali-moradi-dev/my_stuff.git
 $ cd Telegram_client/
-$ python -m venv env
+$ python3 -m venv env
 $ source env/bin/activate
 $ pip install -r requirements.txt
 $ mv .env.sample .env
